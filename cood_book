@@ -1,0 +1,34 @@
+library(reshape2)
+All use to read the txt file of train and test
+sub_train 
+x_train 
+y_train 
+sub_test 
+x_test 
+y_test 
+Extracting features
+features 
+
+#step 1 Merges the training and the test sets to create one data set
+train -- all value of train
+test -- all value of test
+combined -- combination of train and test
+
+# Step 2 determine which columns contain "mean()" or "std()"
+meanstdcols is  col wiyh mean and standard deviation
+combined1  all data having mean and standard deviation.
+
+## STEP 3: Uses descriptive activity names to name the activities
+## in the data set.
+## STEP 4: Appropriately labels the data set with descriptive
+## activity names. 
+
+# convert the activity column from integer to factor
+combined1$activity 
+## STEP 5: Creates a second, independent tidy data set with the
+## average of each variable for each activity and each subject.
+
+# create the tidy data set
+melted  subset
+tidy is having final data 
+
